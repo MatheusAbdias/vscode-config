@@ -2,9 +2,21 @@
 [
   // NAVIGATION
   {
+    "key":"ctrl+shift+x",
+    "command": "workbench.extensions.search"
+  },
+  {
+   "key": "ctrl+shift+d", 
+   "command": "workbench.view.debug"
+  },
+  {
     "key": "ctrl+shift+a",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
+  },
+  {
+    "key":"ctrl+shift+t",
+    "command": "test-explorer.focus",
   },
   {
     "key": "ctrl+shift+b",
@@ -14,6 +26,11 @@
   {
     "key": "ctrl+shift+j",
     "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active"
   },
   {
     "key": "ctrl+shift+n",
