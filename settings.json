@@ -1,143 +1,220 @@
 {
-  "editor.formatOnSave": true,
-  "editor.suggest.insertMode": "replace",
-  "terminal.integrated.fontFamily": "MesloLGS NF",
-  "editor.linkedEditing": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": -1.0,
-  "launch": {},
-  "[json]": {},
-  "workbench.statusBar.visible": false,
-  "editor.minimap.enabled": false,
-  "breadcrumbs.enabled": false,
-  "workbench.iconTheme": "material-icon-theme",
-  "update.showReleaseNotes": false,
-  "workbench.activityBar.visible": false,
-  "zenMode.hideLineNumbers": false,
-  "editor.lineNumbers": "relative",
-  "vim.leader": "<Space>",
-  "vim.hlsearch": true,
-  "vim.normalModeKeyBindingsNonRecursive": [
-    // NAVIGATION
-    // switch b/w buffers
-    {
-      "before": ["<S-h>"],
-      "commands": [":bprevious"]
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "javascript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "extensions.ignoreRecommendations": true,
+    "typescript.tsserver.log": "off",
+    "files.associations": {
+        ".env.*": "dotenv",
+        ".prettierrc": "json",
+        "*.css": "css"
     },
-    {
-      "before": ["<S-l>"],
-      "commands": [":bnext"]
+    "editor.parameterHints.enabled": false,
+    "editor.renderLineHighlight": "gutter",
+    "cSpell.language": "en,en-US,pt-BR",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.suggestSelection": "first",
+    "explorer.confirmDelete": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "terminal.integrated.showExitAlert": false,
+    "[prisma]": {
+        "editor.formatOnSave": true
     },
-    // splits
-    {
-      "before": ["leader", "v"],
-      "commands": [":vsplit"]
+    "typescript.suggest.autoImports": true,
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
     },
-    {
-      "before": ["leader", "s"],
-      "commands": [":split"]
+    "workbench.editor.labelFormat": "short",
+    "editor.fontLigatures": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
     },
-    // panes
-    {
-      "before": ["leader", "h"],
-      "commands": ["workbench.action.focusLeftGroup"]
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
     },
-    {
-      "before": ["leader", "j"],
-      "commands": ["workbench.action.focusBelowGroup"]
+    "cSpell.enabledFiletypes": [
+        "!python",
+        "!asciidoc",
+        "!c",
+        "!csharp",
+        "!handlebars",
+        "!haskell",
+        "!jade",
+        "!java",
+        "!latex",
+        "!php",
+        "!pug",
+        "!restructuredtext",
+        "!rust",
+        "!scala",
+        "!scss",
+        "!django-html",
+        "!dockercompose",
+        "!python"
+    ],
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "explorer.compactFolders": false,
+    "git.enableSmartCommit": true,
+    "editor.accessibilitySupport": "off",
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "MesloLGS Nerd Font Mono",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
     },
-    {
-      "before": ["leader", "k"],
-      "commands": ["workbench.action.focusAboveGroup"]
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "graphql"
+    ],
+    "editor.semanticHighlighting.enabled": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "gitlens.codeLens.authors.enabled": false,
+    "editor.tabSize": 2,
+    "files.exclude": {
+        "**\/CVS": true,
+        "**\/.DS_Store": true,
+        "**\/.hg": true,
+        "**\/.svn": true,
+        "**\/.git": true,
+        "node_modules": true
     },
-    {
-      "before": ["leader", "l"],
-      "commands": ["workbench.action.focusRightGroup"]
+    "workbench.iconTheme": "catppuccin-mocha",
+    "terminal.integrated.gpuAcceleration": "off",
+    "terminal.integrated.defaultProfile.osx": "fish",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
-    // NICE TO HAVE
-    {
-      "before": ["leader", "w"],
-      "commands": [":w!"]
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
-    {
-      "before": ["leader", "q"],
-      "commands": [":q!"]
+    "window.commandCenter": true,
+    "git.openRepositoryInParentFolders": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    {
-      "before": ["leader", "x"],
-      "commands": [":x!"]
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.activityBar.location": "hidden",
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "explorer.sortOrder": "foldersNestsFiles",
+    "explorer.fileNesting.patterns": {
+        "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+        "tailwind.config.js": "tailwind.config*, postcss.config*",
+        ".env.local": ".env*",
+        ".env": ".env*"
     },
-    {
-      "before": ["[", "d"],
-      "commands": ["editor.action.marker.prev"]
+    "explorer.fileNesting.enabled": true,
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.statusBar.visible": false,
+    "ruff.importStrategy": "useBundled",
+    "terminal.integrated.env.linux": {},
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "aws.samcli.location": "/usr/local/bin/sam",
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "aws.suppressPrompts": {
+        "yamlExtPrompt": true
     },
-    {
-      "before": ["]", "d"],
-      "commands": ["editor.action.marker.next"]
+    "hediet.vscode-drawio.resizeImages": null,
+    "cSpell.userWords": [
+        "allexport",
+        "anymail",
+        "aptare",
+        "asgiref",
+        "autouse",
+        "axllent",
+        "botocore",
+        "certresolver",
+        "cffi",
+        "cnpj",
+        "combustivel",
+        "devcontainer",
+        "dind",
+        "django",
+        "docbr",
+        "endfor",
+        "fabricacao",
+        "filterset",
+        "fipe",
+        "Gettext",
+        "gitlab",
+        "homologation",
+        "ipinfo",
+        "isafe",
+        "itaipu",
+        "junitxml",
+        "letsencrypt",
+        "localstack",
+        "Ltda",
+        "mailpit",
+        "Mailpit",
+        "modelfields",
+        "phonenumber",
+        "phonenumbers",
+        "PKCS",
+        "postgres",
+        "postgresql",
+        "psycopg",
+        "punq",
+        "pydantic",
+        "pydecimal",
+        "pyproject",
+        "pytest",
+        "querydict",
+        "queryset",
+        "redoc",
+        "runserver",
+        "simplejwt",
+        "strpath",
+        "stylesheet",
+        "totp",
+        "traefik",
+        "usefixtures",
+        "venv",
+        "viewsets",
+        "weasyprint"
+    ],
+    "workbench.editorAssociations": {
+        "{git,gitlens}:/**/*.{md,csv,svg}": "default"
     },
-    {
-      "before": ["<leader>", "c", "a"],
-      "commands": ["editor.action.quickFix"]
-    },
-    {
-      "before": ["leader", "f"],
-      "commands": ["workbench.action.quickOpen"]
-    },
-    {
-      "before": ["leader", "p"],
-      "commands": ["editor.action.formatDocument"]
-    },
-    {
-      "before": ["g", "h"],
-      "commands": ["editor.action.showDefinitionPreviewHover"]
-    }
-  ],
-  "vim.visualModeKeyBindings": [
-    // Stay in visual mode while indenting
-    {
-      "before": ["<"],
-      "commands": ["editor.action.outdentLines"]
-    },
-    {
-      "before": [">"],
-      "commands": ["editor.action.indentLines"]
-    },
-    // Move selected lines while staying in visual mode
-    {
-      "before": ["J"],
-      "commands": ["editor.action.moveLinesDownAction"]
-    },
-    {
-      "before": ["K"],
-      "commands": ["editor.action.moveLinesUpAction"]
-    },
-    // toggle comment selection
-    {
-      "before": ["leader", "c"],
-      "commands": ["editor.action.commentLine"]
-    }
-  ],
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "go.toolsManagement.autoUpdate": true,
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "glassit.alpha": 245,
-  "cSpell.userWords": [
-    "gomock",
-    "gonic",
-    "Matheus",
-    "Paseto",
-    "sqlc",
-    "stretchr",
-    "verr"
-  ],
-  "workbench.colorTheme": "Gruvbox Dark Hard",
-  "zenMode.hideTabs": false,
-  "zig.initialSetupDone": false
+    "remote.autoForwardPortsSource": "hybrid"
 }
